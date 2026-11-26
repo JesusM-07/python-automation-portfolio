@@ -1,0 +1,10 @@
+# Only the public projects go to GitHub. Everything else in this folder stays private.
+/*
+!/.gitignore
+!/README.md
+!/books-to-excel/
+!/price-alert-monitor/
+!/pdf-tables-to-excel/
+**/portada_workana.png
+**/state.json
+**/__pycache__/

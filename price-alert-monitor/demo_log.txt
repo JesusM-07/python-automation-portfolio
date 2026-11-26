@@ -1,0 +1,15 @@
+$ python monitor.py --once --dry-run
+[2026-11-19 00:09] First run: 32 products saved as the starting point. No alerts.
+
+# Simulated change (the practice site never changes): in state.json, one stored price
+# was raised by £8.00 and one product was deleted, so the next check sees a price drop and a new product.
+
+$ python monitor.py --once --dry-run
+  [alert] PRICE DROP: The Past Never Ends £64.50 -> £56.50 (-12%)
+          https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html
+  [alert] NEW: The Last Mile (Amos Decker #2) at £54.21
+          https://books.toscrape.com/catalogue/the-last-mile-amos-decker-2_754/index.html
+[2026-11-19 00:09] Checked 32 products: 2 alert(s).
+
+$ python monitor.py --once --dry-run
+[2026-11-19 00:09] Checked 32 products: 0 alert(s).
