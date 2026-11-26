@@ -1,5 +1,7 @@
 # PDF tables to Excel
 
+**English** · [Español](README.es.md)
+
 Extracts the tables from every page of a PDF into one clean Excel sheet.
 
 **Demo:** `sample_price_list.pdf` (4 pages, 150 rows) becomes `price_list.xlsx`.

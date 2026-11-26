@@ -1,5 +1,7 @@
 # Price alert monitor: Telegram or Discord
 
+**English** · [Español](README.es.md)
+
 Watches a product listing and sends an alert when a product is new, is removed or changes price. The demo watches the Mystery category (32 books, 2 pages) of [books.toscrape.com](https://books.toscrape.com), a website built for scraping practice.
 
 ![Demo run](preview.png)

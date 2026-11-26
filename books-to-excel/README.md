@@ -1,5 +1,7 @@
 # Books to Excel: web scraping with pagination
 
+**English** · [Español](README.es.md)
+
 Collects all 1,000 books from [books.toscrape.com](https://books.toscrape.com), a website built for scraping practice, across its 50 pages, and saves them to a formatted Excel file and a CSV.
 
 **Output:** `books.xlsx` and `books.csv`, 1,000 rows with title, price (as a number, £ format), rating from 1 to 5, stock and URL.
